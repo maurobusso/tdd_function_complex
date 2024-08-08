@@ -12,3 +12,4 @@ def test_input_in_wrong_format():
         check_age("01-01-1990")
     error_message = str(error.value)
     assert error_message == "Sorry wrong format insert dat as YYYY-MM-DD"
+
